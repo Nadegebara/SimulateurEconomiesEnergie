@@ -1,0 +1,87 @@
+header{
+    
+   
+ }
+
+p{
+   font-size: 40px;
+   text-align: center;
+}
+
+
+h2{
+    font-size: 30px;
+}
+
+    body{
+   
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+    }
+    form{
+    width: 3000px;
+    margin: 0;
+    text-align: left;
+    }
+
+    fieldset{
+        border-radius: 20px;
+        border-bottom: 1px solid;
+        
+    }
+    
+    fieldset div{
+    /* display: block; */
+    margin: 0 0 10px 0;
+   
+    }
+    fieldset div label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 3px;
+    font-size: 20px;
+    }
+
+   fieldset div{
+    margin: 25px;
+   }  
+
+   h1{
+    background-color: #56ca77;
+    margin-bottom: 20px;
+    
+   }
+
+  
+   img{
+    border-radius: 30px;
+    
+   }
+
+
+   footer{
+     background-color: #56ca77;
+     height: 250px;
+   }
+
+   .navbar{
+    justify-content: center;
+   
+   }
+
+   .navbar > .container-fluid{
+    width: 100%;
+    text-align: center;
+    display: block;
+   }
+
+   .navbar-brand{
+     font-size: 40px;
+   }
+
+   .logo img{
+       height: 70px;
+   }
+   
+   
