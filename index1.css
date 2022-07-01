@@ -1,0 +1,75 @@
+.navbar{
+    justify-content: center;
+   
+   }
+
+   .navbar > .container-fluid{
+    width: 100%;
+    text-align: center;
+    display: block;
+   }
+
+   .navbar-brand{
+     font-size: 40px;
+     color: rgb(140, 251, 88);
+   }
+
+
+   .logo img{
+    height: 120px;
+}
+
+
+   
+     
+
+
+
+.nav-pills {
+    
+    --bs-nav-pills-link-active-color: #fff;
+    --bs-nav-pills-link-active-bg:  #5d992f;
+    --bs-nav-link-color: #5d992f;
+    justify-content: flex-end;
+   /* font-family: var(--bs-body-font-family);*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section1{
+    margin-top: 50px;
+    text-align: center;
+    line-height: var(--bs-body-line-height);
+    font-weight: 200px;
+}
+
+h2{
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 200;
+    line-height: 1.2;
+    color: var(--bs-heading-color);
+}
+
+.image1{
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+
+
+
+   .position-relative{
+       margin: 100px;
+ }
+
+.md-0{
+   margin: 50px 20px 0 0;
+}
+
+
+width: 100%;
+    float: left;
+    margin-right: 0%;
+    display: inline;
+    margin-top: 20px

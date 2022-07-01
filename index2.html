@@ -1,0 +1,124 @@
+<div class="bloc-beige">	
+                <div class="zone affiche-bubble" id="zone-facture-gaz-code-postal">
+                    <a name="ancre-codePostal" id="ancre-codePostal"></a>
+                    <p><strong>Mon code postal :</strong></p>
+                    <div>
+                        <input type="text" name="codePostal" value="" id="codePostal" onblur="recupererListeCommunes();" onkeyup="if((this.value!='')&amp;&amp;(event.keyCode == 13)){recupererListeCommunes();};" placeholder="ex : 33100" class="text-placeholder">
+                    </div>
+                </div>  
+                                <div class="bubble-information" id="bubble-zone-facture-gaz-code-postal" style="position: absolute; opacity: 1; display: none;">
+                    <p></p><p><strong>Votre</strong><strong> code postal </strong>et le nom de <strong>votre commune </strong>permettent d'afficher&nbsp;<strong>uniquement les offres qui vous concernent.</strong></p>
+<p>Votre commune détermine également le prix qui vous est proposé.</p><p></p>
+                </div>
+                                <div class="zone affiche-bubble" id="zone-facture-gaz-commune">
+                    <a name="ancre-codeInsee" id="ancre-codeInsee"></a>
+                    <p><strong>Ma commune :</strong></p>
+                    <div class="styled-select">
+                        <select name="codeInsee" id="codeInsee">
+                                                            
+                                <option value="">-- Sélectionnez --</option>
+								                        </select>
+                    </div>
+                </div>
+                <div class="bubble-information" id="bubble-zone-facture-gaz-commune" style="position: absolute; opacity: 1; display: none;">
+                    <p></p><p><strong>Votre</strong><strong> code postal </strong>et le nom de <strong>votre commune </strong>permettent d'afficher&nbsp;<strong>uniquement les offres qui vous concernent.</strong></p>
+<p>Votre commune détermine également le prix qui vous est proposé.</p><p></p>
+                </div>
+                <div class="zone affiche-bubble" id="zone-option-habitable"> 
+                    <a name="ancre-infoLogement" id="ancre-infoLogement"></a>
+                    <p><strong>J'habite dans :</strong></p> 
+                    <div class="radio-item ">
+                        <input class="js-affiche-contextual" type="radio" name="infoLogement" value="1" id="js-affiche-maison">
+                        <label for="js-affiche-maison">Une maison</label>
+                    </div>
+                    <div class="radio-item">
+                        <input class="js-affiche-contextual" type="radio" name="infoLogement" value="0" id="js-affiche-appart">
+                        <label for="js-affiche-appart">Un appartement</label>
+                    </div>
+                </div>  
+                                <div class="bubble-information" id="bubble-zone-option-habitable" style="position: absolute; opacity: 0; display: none;">
+                     <p></p><p>Indiquez si vous habitez une <strong>maison </strong>ou un <strong>appartement</strong>.</p><p></p>
+                </div>
+                                    <!-- Debut zone cachée Avoir une piscine  -->
+                    <div class="zone affiche-bubble" id="HideZonePiscine" style="display: none;">
+                        <a name="ancre-infoPiscine" id="ancre-infoPiscine"></a>
+                        <p><strong>J'ai une piscine :</strong></p>
+                        <div class="radio-item ">                            
+                            <input class="js-affiche-contextual" type="radio" name="infoPiscine" value="1" id="js-affiche-oui-piscine">
+                            <label for="js-affiche-oui-piscine">Oui</label>
+                        </div>
+                        <div class="radio-item">
+                            <input class="js-affiche-contextual" type="radio" name="infoPiscine" value="0" id="js-affiche-non-piscine">
+                            <label for="js-affiche-non-piscine">Non</label>
+                        </div>
+                    </div>
+                                        <!-- Fin zone cachée Avoir une piscine  -->                                        
+                    <!--Debut Surface -->
+                    <div class="zone">   
+                            <a name="ancre-infoSurfaceHabtab" id="ancre-infoSurfaceHabtab"></a>
+                            <p><strong>Ma surface habitable :</strong></p>
+                    </div> 
+                    
+                    <div class="zone affiche-bubble" id="zone-je-connais-surfa-habt">
+                        <div class="radio-item">
+                            <input class="js-affiche-contextual" type="radio" name="infoSurfaceHabtab" value="1" id="js-affiche-je-connais-surfa-habt">
+                            <label for="js-affiche-je-connais-surfa-habt">Je connais la surface habitable de mon logement</label>
+                        </div>
+                    </div>                        
+                    <div class="bubble-information" id="bubble-zone-je-connais-surfa-habt" style="position: absolute; opacity: 0; display: none;">
+                        <p></p><p>Indiquez, si vous la connaissez, la<strong> surface habitable</strong> de votre logement.</p><p></p>
+                    </div>                                                    
+                    <div class="zone"></div>
+                    <div class="zone  affiche-bubble" id="zone-je-connais-pas-surface-habitable">
+                        <div class="radio-item">
+                            <input class="js-affiche-contextual" type="radio" name="infoSurfaceHabtab" value="0" id="js-affiche-je-connais-pas-surfa-habt">
+                            <label for="js-affiche-je-connais-pas-surfa-habt">Je ne dispose d'aucune information </label>
+                        </div>
+                    </div>
+                                        <div class="bubble-information" id="bubble-zone-je-connais-pas-surface-habitable" style="position: absolute; opacity: 1; display: none;">
+                         <p></p><p>Si vous ne connaissez pas la surface habitable de votre logement, indiquez le <strong>nombre total de pièces</strong>.</p><p></p>
+                    </div>  
+                                        <!-- Debut zone cachée Surface Habitable  -->
+                    <div class="zone affiche-bubble" id="zone-surface-habitable" style="display: none;">
+                        <a name="ancre-surfaceLogement" id="ancre-surfaceLogement"></a>
+                        <p><strong>Ma surface habitable :</strong></p>
+                        <input type="number" min="0" name="surfaceLogement" value="" id="surfaceLogement"> <span>m ²</span>                       
+                    </div> 
+                                        <div class="bubble-information" id="bubble-zone-surface-habitable" style="position: absolute; opacity: 0; display: none;">
+                        <p></p><p>Indiquez, si vous la connaissez, la <strong>surface habitable</strong> de votre logement. <br>
+<br>
+<br></p><p></p>
+                    </div>    
+                                        <div class="zone affiche-bubble" id="zone-surface-non-connue" style="display: none;">
+                        <a name="ancre-nbrPieces" id="ancre-nbrPieces"></a>
+                        <p><strong>Nombre de pièces de mon logement :</strong></p>
+                        <input type="number" min="0" name="nbrPieces" value="" id="nbrPieces">                        
+                    </div> 
+                                        <!-- Fin zone cachée Surface Habitable    -->
+                     <div class="zone affiche-bubble" id="zone-nombre-personnes">
+                         <a name="ancre-nbrPersonnes" id="ancre-nbrPersonnes"></a>
+                        <p><strong>Nombre de personnes qui vivent habituellement dans mon logement :</strong></p>
+                        <input type="number" min="0" name="nbrPersonnes" value="" id="nbrPersonnes">                        
+                    </div>
+                                        <div class="bubble-information" id="bubble-zone-nombre-personnes" style="position: relative; opacity: 1; display: block;">
+                        <p></p><p>Indiquez le <strong>nombre de personnes </strong>qui habitent dans le logement, de manière régulière.</p><p></p>
+                    </div>   
+                                        <div class="zone affiche-bubble" id="zone-hors-logement">
+                        <a name="ancre-horsLogement" id="ancre-horsLogement"></a>
+                        <p><strong>A certaines heures, nous sommes habituellement tous hors du logement (travail ou école, etc ...) :</strong></p>
+                        <div class="radio-item">
+                            <input class="js-affiche-contextual" type="radio" name="horsLogement" value="1" id="js-affiche-hors-logement">
+                            <label for="js-affiche-hors-logement">Oui </label>
+                        </div>  
+                        <div class="radio-item">
+                            <input class="js-affiche-contextual" type="radio" name="horsLogement" value="0" id="js-affiche-non-hors-logement">
+                            <label for="js-affiche-non-hors-logement">Non </label>
+                        </div>                          
+                    </div> 
+                                        <div class="bubble-information" id="bubble-zone-hors-logement" style="position: absolute; opacity: 1; display: none;">
+                        <p></p><p>Indiquez "<strong>Oui</strong>" si, à certaines heures, le logement est vide (travail, école...).<br>
+<br>
+Indiquez "<strong>Non</strong>", s'il y a toujours, ou presque toujours, une personne dans le logement.</p><p></p>
+                    </div>    
+                                        <!-- Fin Surface -->                                                   
+            </div>
