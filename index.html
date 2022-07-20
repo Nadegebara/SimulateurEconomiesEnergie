@@ -30,7 +30,7 @@
 
     
 
-        <div class="shadow-lg p-3 mb-5 bg-body rounded fieldset-title" >MON LOGEMENT</div>
+        <div class="shadow-lg p-3 mb-5 bg-body rounded fieldset-title">MON LOGEMENT</div>
         <div class="form-container">
           <form>
               <fieldset>
@@ -90,13 +90,16 @@
               <input type="number" class="form-control">
             </div>
 
+
+
             <div class="form-group">
-              <label class="labe1">A ajouter </label>
-              <input type="text" name="message" class="form-control"> <br>
-            Ex: A certaines heures, nous sommes habituellement tous hors du logement (travail ou école, etc.)
+              <label>A ajouter</label>
+              <input type="number" class="form-control">
+              Ex: A certaines heures, nous sommes habituellement tous hors du logement (travail ou école, etc.)
               
             </div>
 
+            
               
               </fieldset>
           </form>
@@ -105,8 +108,29 @@
         <div class="form-container">    
           <form>
               <fieldset>
+
+               <div class="form-groupe">
+                <label>Nombre de réfrigérateurs:</label>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                  <label class="form-check-label" for="inlineRadio1">Oui</label>
+                </div>
+               <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                  <label class="form-check-label" for="inlineRadio2">Non</label>
+               </div>
+                <div class="form-group">
+                  <div class="form-check form-check-inline">
+                    <label>Nombre</label>
+                    <input type="number" class="form-control">
+                  </div>
+                  
+                </div> 
+               </div>
               
-                <label class="label1">Nombre de réfrigérateurs:</label> <br>
+
+               <div class="form-group">
+                <label>Congélateur independant </label> 
                 <div class="form-check form-check-inline">
                   <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
                   <label class="form-check-label" for="inlineRadio1">Oui</label>
@@ -114,170 +138,208 @@
                 <div class="form-check form-check-inline">
                   <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
                   <label class="form-check-label" for="inlineRadio2">Non</label>
-                  <input type="number" name="test">
-                    Nombre
-                </div> <br>
-            
-              
-
-                <label class="label1">Congélateur independant:</label> <br>
-                <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                  <label class="form-check-label" for="inlineRadio1">Oui</label>
                 </div>
-                <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                  <label class="form-check-label" for="inlineRadio2">Non</label>
-                </div> <br>
-
-              
-                <label class="label1">lave-vaisselle:</label> <br>
-                <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                  <label class="form-check-label" for="inlineRadio1">Oui</label>
-                </div>
-                <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                  <label class="form-check-label" for="inlineRadio2">Non</label>
-                </div> <br>
-
-              
-                <label class="label1">lave-linge:</label> <br>
-                <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                  <label class="form-check-label" for="inlineRadio1">Oui</label>
-                </div>
-                <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                  <label class="form-check-label" for="inlineRadio2">Non</label>
-                </div> <br>
-
-              
-                <label class="label1">four électrique:</label> <br>
-                <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                  <label class="form-check-label" for="inlineRadio1">Oui</label>
-                </div>
-                <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                  <label class="form-check-label" for="inlineRadio2">Non</label>
-                </div> <br>
-      
-              
-              
-                <label class="label1">Plaques électriques:</label> <br>
-                <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                  <label class="form-check-label" for="inlineRadio1">Oui</label>
-                </div>
-                <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                  <label class="form-check-label" for="inlineRadio2">Non</label>
-                  <input type="text" name="message">
-                  Type  
-                </div> <br>
-
-              
-              
-
-              <div>
-              <label class="label1">A ajouter </label>
-              <input type="text" name="message"> <br>
-              performance énergetique
               </div>
+                
+
+                
+              <div class="form-group">
+                <label>lave-vaisselle</label> 
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                  <label class="form-check-label" for="inlineRadio1">Oui</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                  <label class="form-check-label" for="inlineRadio2">Non</label>
+                </div>
+              </div>
+                
+
+              <div class="form-group">
+                <label>lave-linge</label> 
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                  <label class="form-check-label" for="inlineRadio1">Oui</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                  <label class="form-check-label" for="inlineRadio2">Non</label>
+                </div>
+              </div>
+                
+              
+              <div class="form-group">
+                <label>four électrique</label> 
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                  <label class="form-check-label" for="inlineRadio1">Oui</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                  <label class="form-check-label" for="inlineRadio2">Non</label>
+                </div>
+              </div>
+
+    
+              <div class="form-group">
+                <label>Plaques électriques</label> 
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                  <label class="form-check-label" for="inlineRadio1">Oui</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                  <label class="form-check-label" for="inlineRadio2">Non</label>
+                </div>
+              </div>
+
+
+              <div class="form-groupe">
+                <label>Plaques électrique</label>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                  <label class="form-check-label" for="inlineRadio1">Oui</label>
+                </div>
+               <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                  <label class="form-check-label" for="inlineRadio2">Non</label>
+               </div>
+                <div class="form-group">
+                  <div class="form-check form-check-inline">
+                    <label>Type</label>
+                    <input type="number" class="form-control">
+                  </div>
+                  
+                </div> 
+               </div>
+              
+              
+               <div class="form-group">
+                <label>A ajouter</label>
+                <input type="number" class="form-control">
+                performance énergetique
+              </div>
+  
+
+              
 
               <div class="shadow-lg p-3 mb-5 bg-body rounded fieldset-title" >SOBRIÉTÉ ET ECOGESTES POUR REDUIRE VOTRE 
                 CONSOMMATION D'ENNERGIES</div>
-
-              <select class="form-select" aria-label="Disabled select example" disabled>
-                <option selected>baisser la température de consigne du chauffage d'1°C et ou améliorer l'isolation thermique</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-              </select>
+                
 
 
-              <select class="form-select" aria-label="Disabled select example" disabled>
-                <option selected>augmenter la température de consigne du climatisateur à 24/26 °C quand il est utilisé</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-              </select>
+         
+              <div class="div">
+                <label>Baisser la température de consigne du chauffage d'1°C et ou améliorer l'isolation thermique:</label>
+                <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                  <option value="1">Oui</option>
+                  <option value="2">Non</option>
+                </select>
+              </div>
+
+              
+
+              <div class="div">
+                <label>Augmenter la température de consigne du climatisateur à 24/26 °C quand il est utilisé:</label>
+                <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                  <option value="1">Oui</option>
+                  <option value="2">Non</option>
+                </select>
+              </div>
 
 
-              <select class="form-select" aria-label="Disabled select example" disabled>
-                <option selected>Aérer ou démarrer un ventilateur plutôt que d'enclencher la climatisation</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-              </select>
-
-
-              <select class="form-select" aria-label="Disabled select example" disabled>
-                <option selected>Réduire de 5 min son temps de douche</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-              </select>
+              
+              <div class="div">
+                <label>Aérer ou démarrer un ventilateur plutôt que d'enclencher la climatisation:</label>
+                <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                  <option value="1">Oui</option>
+                  <option value="2">Non</option>
+                </select>
+              </div>
 
 
 
-              <select class="form-select" aria-label="Disabled select example" disabled>
-                <option selected>S'équiper de système hydro-économiques afin de réduire le débit en sortie 
+              <div class="div">
+                <label>Réduire de 5 min son temps de douche:</label>
+                <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                  <option value="1">Oui</option>
+                  <option value="2">Non</option>
+                </select>
+              </div>
+
+
+              <div class="div">
+                <label>S'équiper de système hydro-économiques afin de réduire le débit en sortie 
                   des robinets de mon logement (un robinet classique délivre environ 15 L d'eau par minute, 
-                  avec un réducteur de débit il délivrea de 1,7 à 6,5 L d'eau par minute)</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-              </select>
+                  avec un réducteur de débit il délivrea de 1,7 à 6,5 L d'eau par minute):</label>
+                <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                  <option value="1">Oui</option>
+                  <option value="2">Non</option>
+                </select>
+              </div>
 
 
-              <select class="form-select" aria-label="Disabled select example" disabled>
-                <option selected>réduire l'éclairage</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-              </select>
+
+              <div class="div">
+                <label>Réduire l'éclairage:</label>
+                <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                  <option value="1">Oui</option>
+                  <option value="2">Non</option>
+                </select>
+              </div>
 
 
-              <select class="form-select" aria-label="Disabled select example" disabled>
-                <option selected>remplacer avec LED</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-              </select>
+
+              <div class="div">
+                <label>Remplacer avec LED:</label>
+                <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                  <option value="1">Oui</option>
+                  <option value="2">Non</option>
+                </select>
+              </div>
 
 
-              <select class="form-select" aria-label="Disabled select example" disabled>
-                <option selected>Je débranche les veilles de mes équipements</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-              </select>
-
-              <select class="form-select" aria-label="Disabled select example" disabled>
-                <option selected>remplacer progressivement l'électromenager avec un modèle plus performante</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-              </select>
+             
+              <div class="div">
+                <label>Je débranche les veilles de mes équipements:</label>
+                <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                  <option value="1">Oui</option>
+                  <option value="2">Non</option>
+                </select>
+              </div>
 
 
-              <select class="form-select" aria-label="Disabled select example" disabled>
-                <option selected>dégivrer le congélateur</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-              </select>
+             
+              <div class="div">
+                <label>Remplacer progressivement l'électromenager avec un modèle plus performante:</label>
+                <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                  <option value="1">Oui</option>
+                  <option value="2">Non</option>
+                </select>
+              </div>
+              
 
+              
+              <div class="div">
+                <label>Dégivrer le congélateur:</label>
+                <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                  <option value="1">Oui</option>
+                  <option value="2">Non</option>
+                </select>
+              </div>
+              
 
-              <select class="form-select" aria-label="Disabled select example" disabled>
-                <option selected>utiliser le couvercle pendant la cuisson</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-              </select>
-
+              
+              <div class="div">
+                <label>utiliser le couvercle pendant la cuisson:</label>
+                <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                  <option value="1">Oui</option>
+                  <option value="2">Non</option>
+                </select>
+              </div>
+              
+         
               
               <button type="button" class="btn btn-success">Success</button>
 
